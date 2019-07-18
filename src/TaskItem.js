@@ -27,7 +27,7 @@ export default class TaskItem extends Component {
     const { data } = this.props;
     return (
       <div key={data.id}>
-        <div className={styles.taskItem} style={{ borderBottom: this.props.hasBorder ? '1px dashed #dadada' : 'none' }}>
+        <div className={styles.taskItem}>
           <div className={styles.title}>{data.checkItemName}</div>
           {
             data.itemScore !== null &&
