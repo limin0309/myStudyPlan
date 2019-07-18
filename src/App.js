@@ -9,7 +9,6 @@ import {
   message,
 } from 'antd';
 import styles from './PatrolShopTask.less';
-import TaskItem from './TaskItem';
 // import { getCurrentBusiness, getUrlParam2 ,getCurrentStore} from '../../utils/utils';
 
 const { Panel } = Collapse;
